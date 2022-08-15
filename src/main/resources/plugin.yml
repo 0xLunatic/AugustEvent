@@ -1,0 +1,22 @@
+name: AugustEvent
+version: '${project.version}'
+main: august.event.Main
+api-version: 1.16
+authors: [ Mornov ]
+description: 17th August Event
+depend:
+  - ProtocolLib
+  - Vault
+commands:
+  buyrelic:
+    description: "Buy your relic here"
+    permission: op
+  setcenterevent:
+    permission: op
+  17agustus:
+    permission: op
+  buyrpglimited:
+    description: "Buy RPG Limited"
+    permission: op
+  showkemerdekaanpoints:
+    description: "Show your points"
